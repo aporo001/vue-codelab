@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Nav3/>
-    <router-view></router-view>
+    <div class="container">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 

@@ -15,8 +15,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <router-link active-class="active" to="/" tag="li"><a>Home</a></router-link>
-          <router-link active-class="active" to="/test" tag="li"><a>Test</a></router-link>
+          <li>
+            <router-link active-class="active" to="/">Home</router-link>
+          </li>
+          <li>
+            <router-link active-class="active" to="/test">Test</router-link>
+          </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

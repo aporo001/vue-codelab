@@ -1,8 +1,9 @@
 <template>
-  <div class="container">
+  <div>
     <h1>Listdata</h1>
     <ListItem :listItems="list"></ListItem>
-</div>
+  </div>
+
 </template>
 
 <script>
